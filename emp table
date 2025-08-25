@@ -1,0 +1,15 @@
+CREATE TABLE EMP (
+EmpId INT PRIMARY KEY,
+EmpName VARCHAR2(50),
+Email VARCHAR2(50),
+Phone VARCHAR2(20),
+Address VARCHAR2(100)
+);
+
+INSERT INTO EMP (EmpId, EmpName, Email, Phone, Address) VALUES 
+(1, 'ASAD', 'abc@gmail.com', '123456', 'Lahore'),
+(2, 'Ahad', 'xyz@gmail.com', '572829', 'Faisalabad'),
+(3, 'Sara', 'opq@gmail.com', '629101', 'Islamabad'),
+(4, 'Laiba', 'efg@gmail.com', '123445', 'karachi');
+
+SELECT * FROM EMP;
